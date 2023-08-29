@@ -1,0 +1,179 @@
+.rodller-posts{
+  @include clearfix;
+  .rodller-entry-title{
+    margin: 8px 0 25px;
+    @include transition( "opacity 0.2s ease-in-out 0s");
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+  .layout-a, .layout-b{
+    margin-bottom: 40px;
+    .rodller-post-thumbnail{
+      > a{
+        height: 100%;
+        position: relative;
+        text-decoration: none;
+        &:hover{
+          &:after{
+            opacity: 1;
+          }
+        }
+        &:after{
+          opacity: 0;
+          content: '';
+          position: absolute;
+          z-index: 1;
+          top: 0; left: 0;
+          width: 100%;
+          height:100%;
+          @include transition();
+        }
+      }
+    }
+  }
+  .layout-a{
+    .rodller-post-thumbnail{
+      > a{
+        > img{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          font-family: 'object-fit: cover;';
+        }
+      }
+    }
+  }
+  .layout-b{
+    .rodller-post-thumbnail{
+      height: 300px;
+      > a{
+        > img{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .layout-c{
+    position: relative;
+    padding-bottom: 70px;
+    .rodller-post-thumbnail{
+      > a{
+        float: left;
+        position: relative;
+      }
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 34px;
+      height: 1px;
+      width: 97%;
+      max-width: 100%;
+      background-color: #F2F2F2;
+      @include transform(translateX(-50%));
+    }
+  }
+  .layout-d{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    .rodller-post-thumbnail{
+      margin-right: 20px;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 300px;
+      flex: 0 0 300px;
+      max-width: 300px;
+      > a > img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+.rodller-format-icon{
+  position: absolute;
+  z-index: 2;
+  right: 15px;
+  bottom: 15px;
+  width: 35px;
+  height: 35px;
+  padding: 12px;
+  background-color: $light;
+  border-radius: 50%;
+  @include box-shadow(0, 0, 15px, rgba(0, 0, 0, 0.07));
+  @include transition();
+  .ion-play{
+    position: relative;
+    left: 1px;
+    top: -1px;
+  }
+  .ion-volume-high{
+    position: relative;
+    left: -1px;
+  }
+  .ion-images{
+    position: relative;
+    left: -1px;
+  }
+}
+
+.rodller-post-thumbnail{
+  position: relative;
+  display: block;
+  line-height: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  > a{
+    display: block;
+    > img{
+      @include transition('transform 0.4s ease-in-out 0s')
+    }
+  }
+  .rodller-categories{
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    top: 15px;
+    > a{
+      font-size: 12px;
+    }
+  }
+  &:hover{
+    > a > img{
+      @include transform(scale(1.1, 1.1));
+    }
+  }
+}
+
+.rodller-metadata{
+  .rodller-metadata-item{
+    display: inline-block;
+    margin-right: 15px;
+    &:last-child{
+      margin-right: 0;
+    }
+    i{
+      margin-right: 5px;
+    }
+    a{
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.rodller-entry-content .rodller-tags>a:hover{
+  text-decoration: none;
+}
+
+.sticky{
+  .rodller-format-icon{
+    padding: 11px;
+  }
+}
+.rodller-format-icon.rodller-sticky-post{
+  padding: 11px;
+}

@@ -1,0 +1,140 @@
+.rodller-entry-content .customize-partial-edit-shortcut{
+    left: 35px;
+}
+.customize-control.customize-control-kirki-radio-image .image label img{
+    width: 65px;
+}
+
+.customize-partial-edit-shortcut-rodller_header_layout {
+    left: 50px;
+    top: 50px;
+}
+
+#rodller-top-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-rodller_top_bar{
+    left: 40px;
+    top: 4px;
+    z-index: 9999;
+}
+
+.customize-partial-edit-shortcut-rodller_logo{
+    left: 30px;
+    bottom: 60px;
+}
+
+.customize-partial-edit-shortcut-rodller_post_sidebar_position{
+    left: 30px;
+}
+
+.rodller-l-slot .customize-partial-edit-shortcut button.customize-partial-edit-shortcut-button{
+    left: -10px;
+}
+
+.rodller-header-layout-3 .customize-partial-edit-shortcut-rodller_logo{
+    left: 50%;
+    right: auto;
+}
+
+.rodller-header-logo{
+    position: relative;
+}
+
+.customize-partial-edit-shortcut-rodller_footer_columns{
+    right: 30px;
+}
+
+.customize-partial-edit-shortcut-rodller_footer_copyright_bar_background_color{
+    left: 40px;
+}
+
+#rodller-main > .customize-partial-edit-shortcut{
+    left: 50px;
+}
+
+.tag #rodller-main > .customize-partial-edit-shortcut, .category #rodller-main > .customize-partial-edit-shortcut{
+    left: 50px;
+}
+
+.customize-partial-edit-shortcut-rodller_cover_height{
+    left: 50%;
+    top: 15px;
+}
+
+.customize-partial-edit-shortcut-rodller_sidebars{
+    left: 90px;
+    top: -15px;
+}
+
+.rodller-cover-wrapper{
+    position: relative;
+}
+
+.customize-partial-edit-shortcut-rodller_page_cover_layout{
+    top: 15px;
+    left: 60%;
+}
+
+.customize-partial-edit-shortcut-rodller_ad_below_header{
+    top: 50px;
+}
+
+.customize-partial-edit-shortcut-rodller_category_cover_layout{
+    top: 50%;
+    left: 50%;
+}
+
+.customize-partial-edit-shortcut-rodller_text_limit_layout_a, .customize-partial-edit-shortcut-rodller_text_limit_layout_b, .customize-partial-edit-shortcut-rodller_text_limit_layout_c, .customize-partial-edit-shortcut-rodller_text_limit_layout_d{
+    left: 50px;
+}
+
+.rodller_shortcut_helper{
+    position: absolute;
+    top: 3px;
+    width: 220px;
+    min-width: 220px;
+    margin-left: 5px;
+    padding-left: 16px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    text-align: left;
+    color: black;
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
+}
+.rodller_shortcut_helper.rodller_orientation_right{
+    left: -15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.rodller_shortcut_helper.rodller_orientation_left{
+    right: 10px;
+    left: auto;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.rodller-l-slot .rodller_shortcut_helper.rodller_orientation_right{
+    left: 0;
+}
+
+.customize-partial-edit-shortcut-rodller_archive_layout{
+    left: 30px;
+    margin-top: 40px;
+}
+
+.customize-partial-edit-shortcut-rodller_page_sidebar_position{
+    top: 50px;
+}
+
+.customize-partial-edit-shortcut-rodller_navigation_font{
+    top: 50%;
+    left: 50%;
+}
+
+.customize-partial-edit-shortcut-rodller_top_bar{
+    left: 50%;
+}
+
+.customize-partial-edit-shortcut-rodller_prefooter_instagram_username{
+    left: 50%;
+}

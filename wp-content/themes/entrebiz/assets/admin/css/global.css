@@ -1,0 +1,82 @@
+#customize-controls .customize-info{
+    margin-bottom: 0;
+}
+.accordion-section-title{
+    padding: 0 15px;
+}
+.customize-control-kirki-radio-image label{
+    margin: 0 2px;
+}
+.postbox .inside .half{
+    float: left;
+    width: 47%;
+    padding: 0 10px 10px;
+}
+.postbox .inside .half:first-child{
+    border-right: 1px solid #e2e4e7;
+}
+.postbox .inside .half input[type="text"]{
+    width: 100%;
+}
+
+.rodller-image-radio label{
+    display: inline-block;
+}
+.rodller-image-radio label input[type="radio"]{
+    position: absolute;
+    visibility: hidden;
+}
+.rodller-image-radio label input[type="radio"]:checked ~ img{
+    -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    border: 1px solid #3498DB;
+}
+#customize-controls .customize-control-kirki-switch .switch label{
+    margin-bottom: 0;
+}
+#customize-controls .customize-control-kirki-switch .switch{
+    margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Content Title
+--------------------------------------------------------------*/
+
+button.content-title-visibility {
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    line-height: 30px;
+    top: calc(50% - 15px);
+    opacity: 0.4;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button.show-content-title:before {
+    content: "\f530";
+}
+
+button.disable-content-title:before {
+    content: "\f177";
+}
+
+body:not(.content-title-hidden) .editor-post-title__block:hover button.disable-content-title,
+.content-title-hidden .editor-post-title__block:hover button.show-content-title {
+    display: block;
+}
+
+button.content-title-visibility:before {
+    font-family: dashicons;
+}
+
+.content-title-hidden .editor-post-title textarea {
+    opacity: 0.4;
+}
+
+.edit-post-text-editor .editor-post-title__block .editor-post-title__input {
+    color: initial;
+    opacity: 1;
+}

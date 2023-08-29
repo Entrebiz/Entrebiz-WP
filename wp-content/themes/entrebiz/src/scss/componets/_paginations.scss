@@ -1,0 +1,62 @@
+#rodller-pagination{
+  &.rodller-numeric{
+    a, .current{
+      display: inline-block;
+      width: 40px;
+      line-height: 40px;
+    }
+    .current{
+      opacity: 0.5;
+    }
+    .next, .prev{
+      margin: 0 5px;
+      border-radius: 50%;
+      text-decoration: none;
+    }
+  }
+  &.rodller-prevnext-single{
+    margin-top: 50px;
+    a{
+      display: inline-block;
+      padding: 10px 15px;
+      text-align: center;
+      .rodller-button{
+        border-radius: 50%;
+        width: 40px;
+        line-height: 20px;
+        display: inline-block;
+        text-align: center;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+.woocommerce nav.woocommerce-pagination ul{
+  border: 0;
+  li{
+    border: 0;
+    width: 40px;
+    line-height: 40px;
+    a, span.current{
+      display: block;
+      line-height: 40px;
+      padding: 0;
+    }
+    span.current, a:focus{
+      background-color: transparent;
+    }
+    span.current{
+      opacity: 0.5;
+    }
+    a:hover{
+      background-color: transparent;
+    }
+    .next, .prev{
+      border-radius: 50%;
+      &:focus{
+        background-color: transparent;
+      }
+    }
+  }
+}

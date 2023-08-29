@@ -1,0 +1,393 @@
+#rodller-top-bar{
+  height: 40px;
+  width: auto;
+  display: block;
+  text-align: center;
+  .rodller-l-slot, .rodller-r-slot, .rodller-m-slot{
+    font-size: 14px;
+    line-height: 1.5;
+    height: 40px;
+    > *{
+      display: inline-block;
+    }
+    .rodller-searchform .rodller-searchform-opener{
+      line-height: 40px;
+    }
+  }
+  .rodller-l-slot{
+    left: 15px;
+  }
+  .rodller-m-slot{
+    left: 0;
+  }
+  .rodller-cart-icon{
+    margin: 9px 0;
+    position: relative;
+    .rodller-cart-count{
+      top: -5px;
+    }
+  }
+}
+
+.rodller-l-slot, .rodller-r-slot{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  top: 0;
+  z-index: 1001;
+  > *{
+    vertical-align: top;
+    display: inline-block;
+  }
+}
+.rodller-m-slot{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  justify-content: center;
+}
+.rodller-l-slot{
+  left: 15px;
+  .rodller-searchform .rodller-search-input-wrapper.active{
+    right: auto;
+    left: 0;
+  }
+}
+.rodller-r-slot{
+  right: 15px;
+}
+
+.rodller-l-slot, .rodller-r-slot, .rodller-m-slot{
+  .rodller-button{
+    padding: 5px 20px;
+    margin: 0 3px;
+  }
+}
+
+.search-form{
+  .rodller-m-slot
+  > label{
+    display: inline-block;
+  }
+}
+
+.rodller-header-logo{
+  display: block;
+  line-height: 1;
+}
+
+#rodller-main-header{
+  position: relative;
+  z-index: 9999;
+  @extend .header-box-shadow;
+  .rodller-header-layout-1, .rodller-header-layout-2{
+    .rodller-main-navigation{
+      text-align: center;
+    }
+  }
+  .rodller-header-layout-1{
+    .site-description{
+      text-align: center;
+    }
+  }
+  .rodller-header-layout-1 #rodller-header-main-area .rodller-header-logo-wrapper{
+    margin: 0 auto;
+  }
+  .rodller-header-layout-3,.rodller-header-layout-4{
+    .rodller-r-slot{
+      top: 50%;  z-index: 2;
+      @include transform(translate(0, -50%))
+    }
+    .rodller-main-menu{
+      margin-top: -1px;
+    }
+    .rodller-cart-icon{
+      display: initial;
+      line-height: 45px;
+      .rodller-cart-count{
+        top: -5px;
+      }
+    }
+  }
+  .rodller-header-layout-3{
+    .rodller-header-logo-wrapper{
+      display: flex;
+      width: 100%;
+    }
+    .rodller-main-menu{
+      margin: 0 30px;
+    }
+    .rodller-l-slot{
+      position: relative;
+      left: auto;
+      height: 100%;
+      display: flex;
+    }
+  }
+  .rodller-header-layout-4{
+    .rodller-header-logo-wrapper{
+      width: 100%;
+    }
+    .rodller-main-navigation-wrapper{
+      display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+      text-align: center;
+      .rodller-main-navigation{
+        display: inline-block;
+      }
+    }
+    .rodller-logo-wrapper{
+      position: absolute;
+      left: 15px;
+      top: 50%;  z-index: 2;
+      @include transform(translate(0, -50%));
+    }
+    .rodller-l-slot>*, .rodller-r-slot>*{
+      vertical-align: middle;
+    }
+    .rodller-l-slot{
+      position: relative;
+      left: auto;
+      display: inline-block;
+      .rodller-searchform .rodller-search-input-wrapper.active{
+        left: 0;
+        right: auto;
+        &.right{
+          left: auto;
+          right: -5px;
+        }
+      }
+    }
+  }
+  .rodller-header-layout-5{
+    .rodller-main-navigation{
+      text-align: left;
+    }
+    .rodller-l-slot{
+      position: relative;
+    }
+  }
+  .rodller-header-layout-6{
+    #rodller-header-main-area{
+      display: flex;
+      justify-content: space-between;
+    }
+    .rodller-l-slot, .rodller-r-slot{
+      position: relative;
+      left: initial;
+      right: initial;
+    }
+    .rodller-main-navigation{
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+#rodller-header-main-area{
+  .rodller-header-logo-wrapper{
+    height: 100%;
+    display: table;
+    .rodller-header-logo{
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  .rodller-l-slot .rodller-button, .rodller-m-slot .rodller-button, .rodller-r-slot .rodller-button{
+    padding: 10px 20px;
+  }
+}
+
+
+#rodller-bottom-area{
+  border-top:1px solid $gray-lighter;
+  .rodller-menu-social{
+    li{
+      margin: 0;
+      line-height: 47px;
+    }
+  }
+  .rodller-custom-cart{
+    line-height: 47px;
+  }
+}
+
+.rodller-header-logo-wrapper{
+  line-height: 1;
+}
+
+#rodller-sticky-header{
+  visibility: hidden;
+  position: fixed;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  @extend .header-box-shadow;
+  @include transition(top 0.4s ease-in-out);
+  .container{
+    display: table;
+  }
+  .rodller-logo-wrapper{
+    position: absolute;
+    left: 15px;
+    top: 50%;  z-index: 2;
+    @include transform(translate(0, -50%));
+    .site-title{
+      line-height: 60px;
+      img{
+        max-height: 60px;
+      }
+    }
+  }
+  .rodller-main-navigation-wrapper{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    .rodller-main-navigation{
+      display: inline-block;
+    }
+  }
+  .rodller-main-menu{
+    line-height: 59px;
+  }
+  .rodller-r-slot{
+    top: 50%;  z-index: 2;
+    @include transform(translate(0, -50%))
+  }
+  .rodller-menu-social li{
+    margin: 17px 0;
+  }
+  .container .rodller-searchform .rodller-searchform-opener{
+    line-height: 60px;
+  }
+  .rodller-cart-icon .rodller-cart-count{
+    top: -4px;
+  }
+}
+
+.rodller-sticky-header-on{
+  #rodller-sticky-header{
+    top: 0;
+    visibility: visible;
+  }
+}
+.admin-bar{
+  .rodller-sticky-header-on{
+    #rodller-sticky-header{
+      top: 32px;
+    }
+  }
+}
+
+#rodller-main-header{
+  .rodller-searchform{
+    position: relative;
+    .rodller-searchform-opener{
+      display: block;
+      padding: 0 10px;
+      font-size: 18px;
+      line-height: 47px;
+      &.active{
+        font-size: 35px;
+        .ion-ios-search-strong:before{
+          content: "\f404";
+        }
+      }
+    }
+    .rodller-search-input-wrapper{
+      position: absolute;  top: -5000px;  right: 0;
+      width: 350px;
+      @include opacity(0);
+      @include box-shadow(0, 0, 15px, rgba(0, 0, 0, 0.07));
+      @include transition(opacity .2s ease-in-out);
+      &.active{
+        top: 99%;
+        left: -5px;
+        @include opacity(1);
+        &.right{
+          left: auto;
+          right: -5px;
+        }
+      }
+    }
+  }
+  .rodller-r-slot .rodller-searchform .rodller-search-input-wrapper.active{
+    left: auto;
+    right: 0;
+  }
+  .rodller-header-logo{
+    img{
+      vertical-align: middle;
+    }
+  }
+}
+
+span.site-title{
+  display: block;
+}
+.site-title{
+  line-height: 1;
+  margin: 0;
+}
+.site-description{
+  display: block;
+}
+
+#rodller-responsive-header{
+  position: relative;
+  z-index: 9;
+  display: none;
+  height: 72px;
+  top: 0;
+  text-align: center;
+  @extend .header-box-shadow;
+  .rodller-header-logo{
+    display: inline-block;
+    .site-title {
+      font-size: 72px;
+      line-height: 72px;
+    }
+  }
+  #menu-main-menu{
+    margin-bottom: 20px;
+  }
+}
+
+.rodller-cart-icon{
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+  padding: 0 10px;
+  position: relative;
+  .rodller-cart-count{
+    position: absolute;
+    top: 9px;
+    right: 1px;
+    font-size: 12px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 50%;
+  }
+}
+
+.pulse {
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  border: none;
+  border-radius: 100%;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(.66,.33,0,1);
+  animation: pulse 1.25s infinite cubic-bezier(.66,.33,0,1);
+}

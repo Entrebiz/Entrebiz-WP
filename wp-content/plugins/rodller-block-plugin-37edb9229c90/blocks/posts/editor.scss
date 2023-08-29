@@ -1,0 +1,19 @@
+/**
+ Grid
+ */
+@import "grid/bootstrap-grid";
+
+.rodller-blocks-posts{
+  list-style: none !important;
+  list-style-type: none !important;
+}
+
+.rodller-posts-title{
+  text-decoration: none;
+}
+
+.wp-block ul.rodller-blocks-posts{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

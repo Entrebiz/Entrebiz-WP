@@ -1,0 +1,12 @@
+.header-box-shadow{
+  @include box-shadow(0, 3px, 24px,rgba(0,0,0,.07));
+}
+
+.rodller-image-zoom-hover{
+  img{
+    @include transition('transform 0.4s ease-in-out 0s');
+    &:hover{
+      @include transform(scale(1.1, 1.1));
+    }
+  }
+}

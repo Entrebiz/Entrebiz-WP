@@ -1,0 +1,99 @@
+#rodller-prefooter{
+  position: relative;
+  line-height: 0;
+  @include transition('opcaity 0.4s ease-in-out 0s');
+  .null-instagram-feed{
+    max-width: 100%;
+    overflow: hidden;
+    .owl-carousel{
+      margin: 0 auto;
+      .owl-stage-outer{
+        overflow: visible;
+        .owl-stage{
+          li{
+            a{
+              padding: 0;
+              overflow: hidden;
+              img{
+                @include transition('transform 0.4s ease-in-out 0s');
+              }
+              &:hover{
+                img{
+                  @include transform(scale(1.1, 1.1));
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .owl-prev, .owl-next{
+      position: absolute;
+      opacity: 0;
+      top: 50%;
+      width: 50px;
+      height: 50px;
+      margin-top: -25px;
+      text-align: center;
+      border-radius: 50%;
+      @include transition('opacity 0.3s ease-in-out 0s');
+      i:before{
+        font-size: 27px;
+        line-height: 50px;
+      }
+    }
+    .owl-prev{
+      left: -25px;
+      i:before{
+        margin-left: -3px;
+      }
+    }
+    .owl-next{
+      right: -25px;
+      i:before{
+        margin-right: -3px;
+      }
+    }
+  }
+  .rodller-prefooter-instagram-button-wrap{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    opacity: 0;
+    @include transform(translate(-50%,-50%));
+    @include transition('opacity 0.3s ease-in-out 0s');
+  }
+  &:hover{
+    .rodller-prefooter-instagram-button-wrap, .null-instagram-feed .owl-next, .null-instagram-feed .owl-prev{
+      opacity: 1;
+    }
+  }
+}
+
+#rodller-main-footer {
+  padding: 50px 0 70px;
+  .widget {
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+    .widget-title{
+      text-align: left;
+    }
+  }
+  .widget .calendar_wrap>table tbody td{
+    height: 42px;
+  }
+}
+
+#rodller-copyright{
+  text-align: center;
+  border-top: 1px solid #fff;
+  p{
+    font-size: 13px;
+    margin: 0;
+    line-height: 20px;
+    padding: 20px 0;
+  }
+}

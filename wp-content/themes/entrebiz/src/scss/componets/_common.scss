@@ -1,0 +1,133 @@
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignwide, .alignfull{
+  width: 100vw;
+  max-width: initial;
+  margin: 0 0 0 50%;
+  transform: translateX(-50%);
+}
+.alignwide{
+  max-width: $container-large-desktop;
+}
+
+.aligncenter, .aligncenter > iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+.alignfull, .alignwide{
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.fll{
+  float: left;
+}
+
+.flr{
+  float: right;
+}
+
+.half{
+  float: left;
+  width: 50%;
+  @media all and (max-width: $screen-sm) {
+    width: 100%;
+  }
+}
+
+.db{
+  display: block;
+}
+
+.df{
+  display: flex;
+}
+
+.jcsp{
+  justify-content: space-between;
+}
+
+.aic{
+  align-items: center;
+}
+
+.dib{
+  display: inline-block;
+}
+
+.pr{
+  position: relative;
+}
+
+.centered{
+  margin: 0 auto;
+}
+
+.centered-v-h{
+  position: absolute;  top: 50%;  left:50%;
+  @include transform(translate(-50%,-50%));
+}
+
+.centered-v{
+  position: absolute;  top: 50%;  left:0;
+  @include transform(translate(0,-50%));
+}
+
+
+.bcc{
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+
+.tac{
+  text-align: center;
+}
+
+.tal{
+  text-align: left;
+}
+
+.p0{
+  padding: 0 !important;
+}
+
+.ovh{
+  overflow: hidden;
+}
+
+.obj-fit{
+  object-fit: cover;
+  height: 100%;
+  font-family: 'object-fit: cover;';
+}
+
+.rodller-lock{
+  overflow: hidden !important;
+}
+
+.paralax-image{
+  min-height: 400px;
+  background-color: transparent !important;
+  .rodller-container-image-wrap img{
+    display: none;
+  }
+}

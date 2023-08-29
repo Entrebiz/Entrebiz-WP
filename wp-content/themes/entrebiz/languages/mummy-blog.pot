@@ -1,0 +1,3521 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Mummy Blog\n"
+"POT-Creation-Date: 2018-11-19 13:51+0100\n"
+"PO-Revision-Date: 2018-11-19 13:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:22
+msgid "Back to home"
+msgstr ""
+
+#: comments.php:11
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:24
+msgid "Reply"
+msgstr ""
+
+#: core/admin/customizer.php:47
+#, php-format
+msgid ""
+"Need help finding your way while working with Mummy Blog? Visit %s or "
+"contact Rodller %s."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:28
+msgid "Mummy Blog Setup Wizard"
+msgstr ""
+
+#. translators: 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: core/admin/demo-imporrt.php:31
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:32
+msgid "Return to the dashboard"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:33
+msgid "Disable this wizard"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:35
+msgid "Skip"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:36
+msgid "Next"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:37
+msgid "Start"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:38
+msgid "Cancel"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:39 core/admin/demo-imporrt.php:40
+#: core/admin/demo-imporrt.php:41
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:42
+msgid "Import"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:43
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:44
+msgid "Later"
+msgstr ""
+
+#. translators: Theme Name
+#: core/admin/demo-imporrt.php:47
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#. translators: Theme Name
+#: core/admin/demo-imporrt.php:49
+#, php-format
+msgid "%s is Activated"
+msgstr ""
+
+#. translators: Theme Name
+#: core/admin/demo-imporrt.php:51
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:52
+msgid "License key"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:53
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:54
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:55
+msgid "Need help?"
+msgstr ""
+
+#. translators: Theme Name
+#: core/admin/demo-imporrt.php:58
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:59
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:60
+msgid ""
+"This wizard will set up your theme, install plugins, and import content. It "
+"is optional & should take only a few minutes."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:61
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:63
+msgid "Install Child Theme"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:64
+msgid "You're good to go!"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:65
+msgid ""
+"Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:66
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:67
+msgid "Learn about child themes"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:68
+msgid ""
+"Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:69
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:71
+#: vendor/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:72
+msgid "You're up to speed!"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:73
+msgid ""
+"Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:74
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press \"Next"
+"\" to continue the setup wizard."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:75 core/admin/demo-imporrt.php:79
+msgid "Advanced"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:77
+msgid "Import Content"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:78
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:81
+msgid "All done. Have fun!"
+msgstr ""
+
+#. translators: Theme Author
+#: core/admin/demo-imporrt.php:84
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: core/admin/demo-imporrt.php:85
+msgid "Extras"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:86
+msgid "View your website"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:87
+msgid "Theme Documentation"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:88
+msgid "Get Theme Support"
+msgstr ""
+
+#: core/admin/demo-imporrt.php:89
+msgid "Start Customizing"
+msgstr ""
+
+#: core/admin/enqueue.php:118
+msgid ""
+"In order to edit widgets in new sidebars hit publish and reload the window "
+"(F5)"
+msgstr ""
+
+#: core/admin/helpers.php:61
+msgid "Social Menu"
+msgstr ""
+
+#: core/admin/helpers.php:62 core/admin/sections/archive.php:521
+#: searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: core/admin/helpers.php:63
+msgid "Top Menu"
+msgstr ""
+
+#: core/admin/helpers.php:72
+msgid "Shop Cart"
+msgstr ""
+
+#: core/admin/helpers.php:109 core/admin/sections/layouts.php:17
+#: core/helpers.php:346
+msgid "Layout A"
+msgstr ""
+
+#: core/admin/helpers.php:114 core/admin/sections/layouts.php:85
+#: core/helpers.php:352
+msgid "Layout B"
+msgstr ""
+
+#: core/admin/helpers.php:119 core/admin/sections/layouts.php:153
+#: core/helpers.php:358
+msgid "Layout C"
+msgstr ""
+
+#: core/admin/helpers.php:124 core/admin/sections/layouts.php:221
+#: core/helpers.php:370
+msgid "Layout D"
+msgstr ""
+
+#: core/admin/helpers.php:191 core/admin/helpers.php:347
+msgid "Date"
+msgstr ""
+
+#: core/admin/helpers.php:192
+msgid "Number of comments"
+msgstr ""
+
+#: core/admin/helpers.php:193
+msgid "Title (alphabetically)"
+msgstr ""
+
+#: core/admin/helpers.php:194
+msgid "Random"
+msgstr ""
+
+#: core/admin/helpers.php:211
+msgid "Descending"
+msgstr ""
+
+#: core/admin/helpers.php:212
+msgid "Ascending"
+msgstr ""
+
+#: core/admin/helpers.php:229
+msgid "All"
+msgstr ""
+
+#: core/admin/helpers.php:233
+msgid "Standard"
+msgstr ""
+
+#: core/admin/helpers.php:236
+msgid "Audio"
+msgstr ""
+
+#: core/admin/helpers.php:237
+msgid "Gallery"
+msgstr ""
+
+#: core/admin/helpers.php:238
+msgid "Video"
+msgstr ""
+
+#: core/admin/helpers.php:256
+msgid "All time"
+msgstr ""
+
+#: core/admin/helpers.php:257
+msgid "1 Day"
+msgstr ""
+
+#: core/admin/helpers.php:258
+msgid "3 Days"
+msgstr ""
+
+#: core/admin/helpers.php:259
+msgid "1 Week"
+msgstr ""
+
+#: core/admin/helpers.php:260
+msgid "1 Month"
+msgstr ""
+
+#: core/admin/helpers.php:261
+msgid "3 Months"
+msgstr ""
+
+#: core/admin/helpers.php:262
+msgid "6 Months"
+msgstr ""
+
+#: core/admin/helpers.php:263
+msgid "1 Year"
+msgstr ""
+
+#: core/admin/helpers.php:348 core/admin/sections/archive.php:396
+msgid "Author"
+msgstr ""
+
+#: core/admin/helpers.php:349
+msgid "Comments count"
+msgstr ""
+
+#: core/admin/helpers.php:350
+msgid "Add comment link"
+msgstr ""
+
+#: core/admin/helpers.php:351
+msgid "Reading time"
+msgstr ""
+
+#: core/admin/helpers.php:393
+msgid "Post in same category"
+msgstr ""
+
+#: core/admin/helpers.php:394
+msgid "Tagged with at least one same tag"
+msgstr ""
+
+#: core/admin/helpers.php:395
+msgid "In the same category OR tagged with a same tag"
+msgstr ""
+
+#: core/admin/helpers.php:396
+msgid "In the same category AND tagged with a same tag"
+msgstr ""
+
+#: core/admin/helpers.php:397
+msgid "By the same author"
+msgstr ""
+
+#: core/admin/helpers.php:398
+msgid "All posts"
+msgstr ""
+
+#: core/admin/helpers.php:417 core/helpers.php:130
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:180
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:196
+msgid "None"
+msgstr ""
+
+#: core/admin/helpers.php:418
+msgid "Built-in related posts"
+msgstr ""
+
+#: core/admin/helpers.php:421
+msgid "Contextual Related Posts"
+msgstr ""
+
+#: core/admin/helpers.php:425
+msgid ""
+"In order to use this option please install Contextual Related Posts plugin"
+msgstr ""
+
+#: core/admin/helpers.php:431
+msgid "WordPress Related Posts"
+msgstr ""
+
+#: core/admin/helpers.php:435
+msgid ""
+"In order to use this option please install WordPress Related Posts plugin"
+msgstr ""
+
+#: core/admin/helpers.php:441
+msgid "Jetpack by WordPress.com"
+msgstr ""
+
+#: core/admin/helpers.php:445
+msgid ""
+"In order to use this option please install Jetpack by WordPress.com plugin"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:99 core/admin/metaboxes/category.php:267
+msgid "Cover settings"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:100 core/admin/metaboxes/category.php:272
+#: core/admin/metaboxes/page-and-post.php:183
+#: core/admin/sections/archive.php:77 core/admin/sections/archive.php:205
+#: core/admin/sections/archive.php:330 core/admin/sections/archive.php:455
+#: core/admin/sections/archive.php:580 core/admin/sections/cover.php:208
+#: core/admin/sections/cover.php:406 core/admin/sections/cover.php:433
+#: core/admin/sections/single.php:126
+msgid "Layout"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:112 core/admin/metaboxes/category.php:288
+#: core/admin/metaboxes/page-and-post.php:194
+#: core/admin/sections/archive.php:109 core/admin/sections/archive.php:237
+#: core/admin/sections/archive.php:362 core/admin/sections/archive.php:487
+#: core/admin/sections/archive.php:612
+msgid "Posts per page number"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:119 core/admin/metaboxes/category.php:299
+#: core/admin/sections/single.php:418
+msgid "Order by"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:129 core/admin/metaboxes/category.php:313
+#: core/admin/metaboxes/page-and-post.php:214 core/admin/sections/cover.php:295
+#: core/admin/sections/cover.php:490
+msgid "Sort"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:139 core/admin/metaboxes/category.php:327
+msgid "Design settings"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:140 core/admin/metaboxes/category.php:333
+msgid "Image"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:151 core/admin/metaboxes/category.php:347
+msgid "Upload"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:152 core/admin/metaboxes/category.php:348
+msgid "Clear"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:154 core/admin/metaboxes/category.php:351
+msgid "Upload an image for this category"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:158 core/admin/metaboxes/category.php:357
+msgid "Display settings"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:161 core/admin/metaboxes/category.php:368
+msgid "Inherit from theme options"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:165 core/admin/metaboxes/category.php:373
+msgid "Customize"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:171 core/admin/metaboxes/category.php:380
+#: core/admin/metaboxes/page-and-post.php:132
+#: core/admin/sections/archive.php:25 core/admin/sections/archive.php:153
+#: core/admin/sections/archive.php:279 core/admin/sections/archive.php:404
+#: core/admin/sections/archive.php:529 core/admin/sections/single.php:24
+#: core/admin/sections/single.php:144
+msgid "Sidebar Position"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:184 core/admin/metaboxes/category.php:396
+#: core/admin/sections/archive.php:38 core/admin/sections/archive.php:166
+#: core/admin/sections/archive.php:291 core/admin/sections/archive.php:416
+#: core/admin/sections/archive.php:541 core/admin/sections/single.php:43
+#: core/admin/sections/single.php:156
+msgid "Static sidebar"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:198 core/admin/metaboxes/category.php:412
+#: core/admin/sections/archive.php:58
+msgid "Sticky sidebar"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:208 core/admin/metaboxes/category.php:427
+#: core/admin/metaboxes/page-and-post.php:44
+msgid "Post Layout"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:220 core/admin/metaboxes/category.php:443
+#: core/admin/sections/archive.php:95 core/admin/sections/archive.php:223
+#: core/admin/sections/archive.php:348 core/admin/sections/archive.php:473
+#: core/admin/sections/archive.php:598
+msgid "Posts per page"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:227 core/admin/metaboxes/category.php:454
+#: core/admin/sections/archive.php:131 core/admin/sections/archive.php:259
+#: core/admin/sections/archive.php:384 core/admin/sections/archive.php:509
+#: core/admin/sections/archive.php:634
+msgid "Pagination"
+msgstr ""
+
+#: core/admin/metaboxes/category.php:363
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:34
+#: core/admin/sections/sidebars.php:21
+msgid "Sidebar"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:54 core/admin/sections/cover.php:6
+#: core/admin/sections/header-and-footer.php:432 core/helpers.php:376
+#: vendor/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:145
+msgid "Static"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:153
+msgid "Sticky"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:199 core/admin/sections/cover.php:251
+#: core/admin/sections/cover.php:473
+msgid "Order By"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:208 core/admin/sections/cover.php:273
+#: core/widgets/posts.php:197
+msgid "Or choose manually"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:211 core/admin/sections/cover.php:274
+#: core/widgets/posts.php:200
+msgid "Add post IDs separated by comma, for example \"11,15\""
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:226 core/admin/sections/cover.php:317
+msgid "In category"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:237
+msgid ""
+"There are no categories. Got to Posts -> Categories and add one, it will "
+"immediately be shown here."
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:240 core/admin/sections/cover.php:339
+#: core/widgets/posts.php:208
+msgid "Tagged with"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:243
+msgid ""
+"Specify one or more tags separated by comma. i.e. life, cooking, funny "
+"moments. For example \"company,sport\""
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:246 core/admin/sections/cover.php:361
+msgid "Format"
+msgstr ""
+
+#: core/admin/metaboxes/page-and-post.php:255 core/admin/sections/cover.php:383
+#: core/admin/sections/single.php:435 core/widgets/posts.php:219
+msgid "Not older then"
+msgstr ""
+
+#: core/admin/plugins.php:61
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: core/admin/plugins.php:62
+msgid "Mummy Blog Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/admin/plugins.php:63 vendor/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/admin/plugins.php:64 vendor/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/plugins.php:65 vendor/tgmpa/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/plugins.php:66 vendor/tgmpa/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/plugins.php:67
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/plugins.php:68 vendor/tgmpa/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/plugins.php:69 vendor/tgmpa/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/plugins.php:70
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/plugins.php:71 vendor/tgmpa/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/plugins.php:72
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/plugins.php:73 vendor/tgmpa/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/plugins.php:74
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/plugins.php:75 vendor/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/admin/plugins.php:76 vendor/tgmpa/class-tgm-plugin-activation.php:394
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/admin/plugins.php:77
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: core/admin/sections/additional-code.php:8
+msgid "Additional code"
+msgstr ""
+
+#: core/admin/sections/additional-code.php:15
+msgid "Additional CSS"
+msgstr ""
+
+#: core/admin/sections/additional-code.php:29
+msgid "Additional JavaScript"
+msgstr ""
+
+#: core/admin/sections/additional-code.php:30
+msgid ""
+"Just type in the JavaScript code, you don't need the script tag wrapper."
+msgstr ""
+
+#: core/admin/sections/additional-code.php:39
+msgid "Google Analytics JavaScript"
+msgstr ""
+
+#: core/admin/sections/additional-code.php:40
+msgid "Copy the google analytics code and paste it here"
+msgstr ""
+
+#: core/admin/sections/additional-code.php:50
+msgid "Run Google Analytics only for logged out user"
+msgstr ""
+
+#: core/admin/sections/additional-code.php:51
+msgid ""
+"Set to \"ON\" if you to analyze only logged out user, if you are logged in "
+"google analytics won't be run"
+msgstr ""
+
+#: core/admin/sections/additional-code.php:56 core/admin/sections/cover.php:80
+#: core/admin/sections/cover.php:167 core/admin/sections/cover.php:181
+#: core/admin/sections/header-and-footer.php:727
+#: core/admin/sections/layouts.php:31 core/admin/sections/layouts.php:45
+#: core/admin/sections/layouts.php:99 core/admin/sections/layouts.php:113
+#: core/admin/sections/layouts.php:167 core/admin/sections/layouts.php:181
+#: core/admin/sections/layouts.php:235 core/admin/sections/layouts.php:249
+#: core/admin/sections/single.php:88 core/admin/sections/single.php:102
+#: core/admin/sections/single.php:212 core/admin/sections/single.php:226
+#: core/admin/sections/single.php:240 core/admin/sections/single.php:261
+#: core/admin/sections/single.php:303 core/admin/sections/single.php:317
+#: core/admin/sections/single.php:331 core/admin/sections/single.php:345
+#: vendor/kirki/controls/php/class-kirki-control-switch.php:52
+#: vendor/kirki/field/class-kirki-field-switch.php:42
+msgid "On"
+msgstr ""
+
+#: core/admin/sections/additional-code.php:57 core/admin/sections/cover.php:79
+#: core/admin/sections/cover.php:166 core/admin/sections/cover.php:180
+#: core/admin/sections/header-and-footer.php:728
+#: core/admin/sections/layouts.php:30 core/admin/sections/layouts.php:44
+#: core/admin/sections/layouts.php:98 core/admin/sections/layouts.php:112
+#: core/admin/sections/layouts.php:166 core/admin/sections/layouts.php:180
+#: core/admin/sections/layouts.php:234 core/admin/sections/layouts.php:248
+#: core/admin/sections/single.php:87 core/admin/sections/single.php:101
+#: core/admin/sections/single.php:211 core/admin/sections/single.php:225
+#: core/admin/sections/single.php:239 core/admin/sections/single.php:260
+#: core/admin/sections/single.php:302 core/admin/sections/single.php:316
+#: core/admin/sections/single.php:330 core/admin/sections/single.php:344
+#: vendor/kirki/controls/php/class-kirki-control-switch.php:56
+#: vendor/kirki/field/class-kirki-field-switch.php:43
+msgid "Off"
+msgstr ""
+
+#: core/admin/sections/archive.php:9
+msgid "Archives"
+msgstr ""
+
+#: core/admin/sections/archive.php:17
+msgid "Main"
+msgstr ""
+
+#: core/admin/sections/archive.php:26
+msgid "Pick the sidebar position for main archive pages"
+msgstr ""
+
+#: core/admin/sections/archive.php:39
+msgid "Pick the static sidebar for main archive pages"
+msgstr ""
+
+#: core/admin/sections/archive.php:59
+msgid ""
+"Pick the sidebar that will sticky to the top of the page when user scrolls"
+msgstr ""
+
+#: core/admin/sections/archive.php:78
+msgid "Set the posts layouts for main archive page"
+msgstr ""
+
+#: core/admin/sections/archive.php:96
+msgid ""
+"Set custom if you want to override how many post will be displayed on main "
+"archive pages"
+msgstr ""
+
+#: core/admin/sections/archive.php:101 core/admin/sections/archive.php:229
+#: core/admin/sections/archive.php:354 core/admin/sections/archive.php:479
+#: core/admin/sections/archive.php:604
+#: core/admin/sections/header-and-footer.php:396
+#: core/admin/sections/header-and-footer.php:431
+#: core/admin/sections/header-and-footer.php:468 core/helpers.php:127
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:143
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:185
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:201
+msgid "Inherit"
+msgstr ""
+
+#: core/admin/sections/archive.php:102 core/admin/sections/archive.php:230
+#: core/admin/sections/archive.php:355 core/admin/sections/archive.php:480
+#: core/admin/sections/archive.php:605
+msgid "Custom"
+msgstr ""
+
+#: core/admin/sections/archive.php:110
+msgid "Pick custom number of posts displayed on main archive page"
+msgstr ""
+
+#: core/admin/sections/archive.php:132
+msgid "Set what kid of pagination you want on your main archive page"
+msgstr ""
+
+#: core/admin/sections/archive.php:144
+msgid "Category"
+msgstr ""
+
+#: core/admin/sections/archive.php:154
+msgid "Pick the sidebar position for categories"
+msgstr ""
+
+#: core/admin/sections/archive.php:167
+msgid ""
+"Pick the static sidebar for categories. If is set to inherit Main archive "
+"static sidebar setting will be applied."
+msgstr ""
+
+#: core/admin/sections/archive.php:186 core/admin/sections/archive.php:311
+#: core/admin/sections/archive.php:436 core/admin/sections/archive.php:561
+#: core/admin/sections/single.php:63 core/admin/sections/single.php:175
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: core/admin/sections/archive.php:187 core/admin/sections/archive.php:312
+#: core/admin/sections/archive.php:437 core/admin/sections/archive.php:562
+msgid ""
+"Pick the sidebar that will sticky to the top of the page when user scrolls. "
+"If is set to inherit Main archive sticky sidebar settings will be applied."
+msgstr ""
+
+#: core/admin/sections/archive.php:206
+msgid "Set the posts layouts for categories"
+msgstr ""
+
+#: core/admin/sections/archive.php:224
+msgid ""
+"Set custom if you want to override how many post will be displayed on "
+"category archives"
+msgstr ""
+
+#: core/admin/sections/archive.php:238
+msgid "Pick custom number of posts displayed on category archives"
+msgstr ""
+
+#: core/admin/sections/archive.php:260
+msgid "Set what kid of pagination you want on your categories"
+msgstr ""
+
+#: core/admin/sections/archive.php:271
+msgid "Tag"
+msgstr ""
+
+#: core/admin/sections/archive.php:280
+msgid "Pick the sidebar position for tags"
+msgstr ""
+
+#: core/admin/sections/archive.php:292
+msgid ""
+"Pick the static sidebar for tags. If is set to inherit Main archive static "
+"sidebar setting will be applied."
+msgstr ""
+
+#: core/admin/sections/archive.php:331
+msgid "Set the posts layouts for tags"
+msgstr ""
+
+#: core/admin/sections/archive.php:349
+msgid ""
+"Set custom if you want to override how many post will be displayed on tag "
+"archives"
+msgstr ""
+
+#: core/admin/sections/archive.php:363
+msgid "Pick custom number of posts displayed on tag archives"
+msgstr ""
+
+#: core/admin/sections/archive.php:385
+msgid "Set what kid of pagination you want on your tags"
+msgstr ""
+
+#: core/admin/sections/archive.php:405
+msgid "Pick the sidebar position for author archives"
+msgstr ""
+
+#: core/admin/sections/archive.php:417
+msgid ""
+"Pick the static sidebar for author archives. If is set to inherit Main "
+"archive static sidebar setting will be applied."
+msgstr ""
+
+#: core/admin/sections/archive.php:456
+msgid "Set the posts layouts for authors"
+msgstr ""
+
+#: core/admin/sections/archive.php:474
+msgid ""
+"Set custom if you want to override how many post will be displayed on author "
+"archives"
+msgstr ""
+
+#: core/admin/sections/archive.php:488
+msgid "Pick custom number of posts displayed on author archives"
+msgstr ""
+
+#: core/admin/sections/archive.php:510
+msgid "Set what kid of pagination you want on your author archives"
+msgstr ""
+
+#: core/admin/sections/archive.php:530
+msgid "Pick the sidebar position for search result page"
+msgstr ""
+
+#: core/admin/sections/archive.php:542
+msgid ""
+"Pick the static sidebar for search result page. If is set to inherit Main "
+"archive static sidebar setting will be applied."
+msgstr ""
+
+#: core/admin/sections/archive.php:581
+msgid "Set the posts layouts for search results page"
+msgstr ""
+
+#: core/admin/sections/archive.php:599
+msgid ""
+"Set custom if you want to override how many post will be displayed on search "
+"results page"
+msgstr ""
+
+#: core/admin/sections/archive.php:613
+msgid "Pick custom number of posts displayed on search results page"
+msgstr ""
+
+#: core/admin/sections/archive.php:635
+msgid "Set what kid of pagination you want on your search results pages"
+msgstr ""
+
+#: core/admin/sections/archive.php:646
+msgid "Ads"
+msgstr ""
+
+#: core/admin/sections/archive.php:654
+msgid "Ad below header"
+msgstr ""
+
+#: core/admin/sections/archive.php:655
+msgid ""
+"This ad that will be displayed just below header on all pages. If you are "
+"adding code, we advise you to use text editor."
+msgstr ""
+
+#: core/admin/sections/archive.php:670
+msgid "Ad above footer"
+msgstr ""
+
+#: core/admin/sections/archive.php:671
+msgid ""
+"This ad that will be displayed just above footer an all pages. If you are "
+"adding code, we advise you to use text editor."
+msgstr ""
+
+#: core/admin/sections/cover.php:14
+msgid "Cover Display"
+msgstr ""
+
+#: core/admin/sections/cover.php:22
+msgid "Cover Height"
+msgstr ""
+
+#: core/admin/sections/cover.php:23
+#: core/admin/sections/header-and-footer.php:235
+msgid "Set the header height in pixels."
+msgstr ""
+
+#: core/admin/sections/cover.php:73
+msgid "Autoplay"
+msgstr ""
+
+#: core/admin/sections/cover.php:74
+msgid ""
+"Set to \"ON\" if you want slides to move automatically on certain period of "
+"time"
+msgstr ""
+
+#: core/admin/sections/cover.php:87
+msgid "Autoplay Time"
+msgstr ""
+
+#: core/admin/sections/cover.php:88
+msgid "Set on how many seconds will slides change automatically"
+msgstr ""
+
+#: core/admin/sections/cover.php:104
+msgid "Box below text color"
+msgstr ""
+
+#: core/admin/sections/cover.php:105
+msgid ""
+"Set the color of the box below cover text. If you don't want to show box "
+"just set opacity to 0."
+msgstr ""
+
+#: core/admin/sections/cover.php:132
+#: core/admin/sections/header-and-footer.php:72
+#: core/admin/sections/header-and-footer.php:535
+#: core/admin/sections/header-and-footer.php:865
+msgid "Text color"
+msgstr ""
+
+#: core/admin/sections/cover.php:133
+msgid "Set text color of the cover area"
+msgstr ""
+
+#: core/admin/sections/cover.php:160
+msgid "Show text"
+msgstr ""
+
+#: core/admin/sections/cover.php:161
+msgid "Set to \"ON\" if you want to display post text in cover"
+msgstr ""
+
+#: core/admin/sections/cover.php:174
+msgid "Show button"
+msgstr ""
+
+#: core/admin/sections/cover.php:175
+msgid "Set to \"ON\" if you want to display post button that will link to post"
+msgstr ""
+
+#: core/admin/sections/cover.php:188
+msgid "Post metadata shown in cover"
+msgstr ""
+
+#: core/admin/sections/cover.php:189
+msgid "Check what data you want to show above the title in the cover"
+msgstr ""
+
+#: core/admin/sections/cover.php:200
+msgid "Default Page Cover"
+msgstr ""
+
+#: core/admin/sections/cover.php:209 core/admin/sections/cover.php:407
+#: core/admin/sections/cover.php:434
+msgid "Set what kind of layout you want for page cover"
+msgstr ""
+
+#: core/admin/sections/cover.php:225 core/admin/sections/cover.php:452
+#: core/admin/sections/single.php:379
+msgid "Number of posts"
+msgstr ""
+
+#: core/admin/sections/cover.php:340
+msgid ""
+"Specify one or more tags separated by comma. i.e. life, cooking, funny "
+"moments. For example \"new,sport,kids\""
+msgstr ""
+
+#: core/admin/sections/cover.php:425
+msgid "Default Category Cover"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:9
+msgid "Header & Footer"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:17
+msgid "Top bar"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:25
+msgid "Enable top bar"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:26
+msgid "Set to \"ON\" if you want to display top bar."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:31
+msgid "Disable"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:32
+msgid "Enable"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:39
+#: core/admin/sections/header-and-footer.php:809
+#: core/admin/sections/site-identity.php:107
+msgid "Background color"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:40
+msgid "Set background color of the top bar."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:73
+msgid ""
+"Set text color of the top bar. Note that this will be applied only on "
+"classic text, links color can be changed under accent color option"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:99
+#: core/admin/sections/header-and-footer.php:560
+#: core/admin/sections/header-and-footer.php:990
+#: core/admin/sections/typography.php:97
+msgid "Accent color"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:100
+msgid ""
+"Set accent/link color of the top bar. Note that this will be applied only on "
+"links, text color can be changed under text color option"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:126
+msgid "Hover Accent color"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:127
+msgid ""
+"Set color of hovered link. If someone goes over the link in the top bar with "
+"mouse pointer this color will be applied to the link"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:152
+#: core/admin/sections/header-and-footer.php:683
+msgid "Left slot actions"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:153
+msgid ""
+"Enable actions by clicking on eye icon, sort icons using drag and drop. "
+"These actions will be displayed in the left part of the top bar."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:170
+msgid "Middle slot actions"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:171
+msgid ""
+"Enable actions by clicking on eye icon, sort icons using drag and drop. "
+"These actions will be displayed in the middle part of the top bar."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:188
+#: core/admin/sections/header-and-footer.php:671
+#: core/admin/sections/header-and-footer.php:735
+msgid "Right slot actions"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:189
+msgid ""
+"Enable actions by clicking on eye icon, sort icons using drag and drop. "
+"These actions will be displayed in the right part of the top bar."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:208
+msgid "Header Display Options"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:216
+msgid "Choose header layout"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:217
+msgid "Pick the header layout for the website."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:234
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Height"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:288
+#: vendor/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:289
+msgid "Set background color of the main header."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:362
+msgid "Background image"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:363
+msgid "Set background image of the main header."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:379
+msgid "Background repeat"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:380
+msgid ""
+"Pick the type of background repeat, if you add small image in order to "
+"create pattern here you can pick how will that pattern behave."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:392
+#: vendor/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:393
+#: vendor/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:394
+#: vendor/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:395
+#: vendor/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:418
+msgid "Background size"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:419
+msgid "Set the behavior of background image size."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:433
+#: vendor/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:455
+msgid "Background attachment"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:456
+msgid "You can set how will background image behave when user scroll."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:469
+#: vendor/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:470
+#: vendor/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:492
+msgid "Background position"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:493
+msgid "Set the position of the background image."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:505
+msgid "Left top"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:506
+msgid "Left center"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:507
+msgid "Left bottom"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:508
+msgid "Right top"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:509
+msgid "Right center"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:510
+msgid "Right  bottom"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:511
+msgid "Center top"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:512
+msgid "Center center"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:513
+msgid "Center bottom"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:536
+msgid ""
+"Set text color of the main header area. Note that this will be applied only "
+"on classic text, links color can be changed under accent color option"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:561
+msgid ""
+"Set accent/link color of the main header area. Note that this will be "
+"applied only on links, text color can be changed under text color option"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:602
+#: core/admin/sections/header-and-footer.php:1016
+msgid "Hover accent color"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:603
+msgid ""
+"Set color of hovered link. If someone goes over the link in the main header "
+"area with mouse pointer this color will be applied to the link"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:672
+msgid ""
+"Enable actions by clicking on eye icon, sort icons using drag and drop. "
+"These actions will be displayed in the right part of the main area."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:684
+msgid ""
+"Enable actions by clicking on eye icon, sort icons using drag and drop. "
+"These actions will be displayed in the left part of the main area."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:695
+msgid "Header Ad"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:696
+msgid ""
+"Add ad that will be displayed in header main area. If you are adding code, "
+"we advise you to use text editor. Note that only header layout 2 is "
+"supporting ads."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:713
+msgid "Sticky header"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:721
+msgid "Sticky Header"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:722
+msgid "Set to \"ON\" if you want to display sticky header."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:736
+msgid ""
+"Enable actions by clicking on eye icon, sort icons using drag and drop. "
+"These actions will be displayed in the right part of sticky header."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:760
+msgid "Prefooter"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:769
+msgid "Instagram username or hashtag"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:770
+msgid "Example 1: @natgeo Example 2: #flowers"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:783
+msgid "Footer"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:792
+msgid "Footer columns"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:793
+msgid "Pick how many columns you want to display in footer"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:810
+msgid "Set background color of the footer."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:866
+msgid ""
+"Set text color of the footer. Note that this will be applied only on classic "
+"text, links color can be changed under accent color option"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:991
+msgid ""
+"Set accent/link color of the footer. Note that this will be applied only on "
+"links, text color can be changed under text color option"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:1017
+msgid ""
+"Set color of hovered link. If someone goes over the link in the footer with "
+"mouse pointer this color will be applied to the link"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:1050
+msgid "Copyright Bar"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:1051
+msgid "Set to \"ON\" if you want to display copyright bar."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:1066
+msgid "Copyright background color"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:1067
+msgid "Set background color of the copyright bar."
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:1098
+msgid "Copyright text color"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:1099
+msgid "Set text color of the copyright bar"
+msgstr ""
+
+#: core/admin/sections/header-and-footer.php:1140
+msgid "Copyright Content"
+msgstr ""
+
+#: core/admin/sections/layouts.php:9
+msgid "Layouts"
+msgstr ""
+
+#: core/admin/sections/layouts.php:25 core/admin/sections/layouts.php:93
+#: core/admin/sections/layouts.php:161 core/admin/sections/layouts.php:229
+msgid "Show category"
+msgstr ""
+
+#: core/admin/sections/layouts.php:38 core/admin/sections/layouts.php:106
+#: core/admin/sections/layouts.php:174 core/admin/sections/layouts.php:242
+msgid "Show format icon"
+msgstr ""
+
+#: core/admin/sections/layouts.php:39 core/admin/sections/layouts.php:107
+#: core/admin/sections/layouts.php:175 core/admin/sections/layouts.php:243
+msgid ""
+"Set to \"ON\" if you want to display format icon in right bottom corner of "
+"the image"
+msgstr ""
+
+#: core/admin/sections/layouts.php:52 core/admin/sections/layouts.php:120
+#: core/admin/sections/layouts.php:188 core/admin/sections/layouts.php:256
+msgid "Text limit"
+msgstr ""
+
+#: core/admin/sections/layouts.php:53 core/admin/sections/layouts.php:121
+#: core/admin/sections/layouts.php:189 core/admin/sections/layouts.php:257
+msgid "Set how many characters will be displayed"
+msgstr ""
+
+#: core/admin/sections/layouts.php:73 core/admin/sections/layouts.php:141
+#: core/admin/sections/layouts.php:209 core/admin/sections/layouts.php:277
+#: core/admin/sections/single.php:194
+msgid "Post metadata"
+msgstr ""
+
+#: core/admin/sections/layouts.php:74 core/admin/sections/layouts.php:142
+#: core/admin/sections/layouts.php:210 core/admin/sections/layouts.php:278
+msgid "Check what data you want to show"
+msgstr ""
+
+#: core/admin/sections/sidebars.php:9 core/admin/sections/sidebars.php:15
+msgid "Sidebars"
+msgstr ""
+
+#: core/admin/sections/sidebars.php:16
+msgid ""
+"Click on \"Add new sidebar, fill up the name and you can use sidebar on "
+"pages, archives, categories, tags, etc.\""
+msgstr ""
+
+#: core/admin/sections/sidebars.php:27
+msgid "Name"
+msgstr ""
+
+#: core/admin/sections/sidebars.php:28
+msgid "This will be sidebar name"
+msgstr ""
+
+#: core/admin/sections/sidebars.php:44
+msgid "Odd widget background color"
+msgstr ""
+
+#: core/admin/sections/sidebars.php:53
+msgid "Even widget background color"
+msgstr ""
+
+#: core/admin/sections/single.php:8 core/helpers.php:382
+msgid "Single"
+msgstr ""
+
+#: core/admin/sections/single.php:16
+msgid "Page"
+msgstr ""
+
+#: core/admin/sections/single.php:25
+msgid "Pick the sidebar position for pages"
+msgstr ""
+
+#: core/admin/sections/single.php:44
+msgid "Pick the static sidebar for pages"
+msgstr ""
+
+#: core/admin/sections/single.php:64
+msgid ""
+"Pick the sidebar that will sticky to the top of the page when user scrolls "
+"and it will be displayed on pages"
+msgstr ""
+
+#: core/admin/sections/single.php:82 core/admin/sections/single.php:220
+msgid "Display featured image"
+msgstr ""
+
+#: core/admin/sections/single.php:96 core/admin/sections/single.php:234
+msgid "Display featured image caption"
+msgstr ""
+
+#: core/admin/sections/single.php:118
+msgid "Post"
+msgstr ""
+
+#: core/admin/sections/single.php:127
+msgid "Pick the default layout of the single post"
+msgstr ""
+
+#: core/admin/sections/single.php:145
+msgid ""
+"Pick the static sidebar for posts. If is set to inherit Page static sidebar "
+"setting will be applied."
+msgstr ""
+
+#: core/admin/sections/single.php:157
+msgid "If is set to inherit Page sidebar settings will be applied."
+msgstr ""
+
+#: core/admin/sections/single.php:176
+msgid "If is set to inherit Page sticky sidebar settings will be applied."
+msgstr ""
+
+#: core/admin/sections/single.php:195
+msgid "Check what data you want to show on single post"
+msgstr ""
+
+#: core/admin/sections/single.php:206
+msgid "Display categories"
+msgstr ""
+
+#: core/admin/sections/single.php:255
+msgid "Display headline (excerpt)"
+msgstr ""
+
+#: core/admin/sections/single.php:268
+msgid "Excerpt limit"
+msgstr ""
+
+#: core/admin/sections/single.php:269
+msgid ""
+"If there is no excerpt, set the limit of text characters that will be "
+"displayed below title and above featured image"
+msgstr ""
+
+#: core/admin/sections/single.php:297 core/admin/sections/single.php:311
+msgid "Display tags"
+msgstr ""
+
+#: core/admin/sections/single.php:325
+msgid "Display author area"
+msgstr ""
+
+#: core/admin/sections/single.php:339
+msgid "Display prev/next posts"
+msgstr ""
+
+#: core/admin/sections/single.php:354
+msgid "Post - Related posts"
+msgstr ""
+
+#: core/admin/sections/single.php:362
+msgid "Related Posts Type"
+msgstr ""
+
+#: core/admin/sections/single.php:363
+msgid "Check how do you want to generate related posts"
+msgstr ""
+
+#: core/admin/sections/single.php:400
+msgid "Get post by"
+msgstr ""
+
+#: core/admin/sections/single.php:401
+msgid "Pick condition that will be used for getting related posts"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:11
+msgid "Display Title Tagline below logo"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:12
+msgid "Set to on if you want to display tag line below logo"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:25
+msgid "Logo"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:26
+msgid ""
+"Upload your logo image here, or leave empty to show the website title "
+"instead."
+msgstr ""
+
+#: core/admin/sections/site-identity.php:45
+msgid "Retina logo (2x)"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:46
+msgid ""
+"Optionally upload another logo for devices with retina displays. It should "
+"be double the size of your standard logo."
+msgstr ""
+
+#: core/admin/sections/site-identity.php:58
+msgid "Small logo"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:59
+msgid ""
+"Optionally upload another logo for devices with small displays like mobiles "
+"and tablets. Perfect height is 42px"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:71
+msgid "Small logo (2x)"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:72
+msgid "Optionally upload double sized logo for devices with small retina."
+msgstr ""
+
+#: core/admin/sections/site-identity.php:84
+msgid "Default featured image"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:85
+msgid ""
+"Upload your default featured image/placeholder. It will be displayed for "
+"posts that do not have a featured image set."
+msgstr ""
+
+#: core/admin/sections/site-identity.php:97
+msgid "Logo external url"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:98
+msgid ""
+"Add custom logo link, if you don't want header logo to lead to home page."
+msgstr ""
+
+#: core/admin/sections/site-identity.php:108
+msgid "This color will be applied to the background of the whole website."
+msgstr ""
+
+#: core/admin/sections/site-identity.php:183
+msgid "RTL mode"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:184
+msgid "Enable right to left text mode"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:197
+msgid "Skip RTL for specific language(s)"
+msgstr ""
+
+#: core/admin/sections/site-identity.php:198
+msgid ""
+"i.e. If you are using Arabic and English versions on the same WordPress "
+"installation you should put \"en_US\" in this field and its version will not "
+"be displayed as RTL. Note: To exclude multiple languages, separate by comma: "
+"en_US, de_DE"
+msgstr ""
+
+#: core/admin/sections/typography.php:11
+msgid "Typography"
+msgstr ""
+
+#: core/admin/sections/typography.php:19 core/admin/sections/typography.php:27
+msgid "Navigation font"
+msgstr ""
+
+#: core/admin/sections/typography.php:28
+msgid "Set navigation font for main header menu"
+msgstr ""
+
+#: core/admin/sections/typography.php:61
+msgid "Body font"
+msgstr ""
+
+#: core/admin/sections/typography.php:69
+msgid "Text font"
+msgstr ""
+
+#: core/admin/sections/typography.php:70
+msgid ""
+"Set font for body text, this everything besides headings and navigation."
+msgstr ""
+
+#: core/admin/sections/typography.php:98
+msgid "Set color for links in the body text."
+msgstr ""
+
+#: core/admin/sections/typography.php:253
+#: core/admin/sections/typography.php:261
+msgid "Headings font"
+msgstr ""
+
+#: core/admin/sections/typography.php:262
+msgid ""
+"Set font for all the headings this includes H1, H2, H3, H4, H5 and H6 tags."
+msgstr ""
+
+#: core/admin/sections/update.php:9
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: core/admin/sections/update.php:16
+msgid "Username"
+msgstr ""
+
+#: core/admin/sections/update.php:25
+msgid "API key"
+msgstr ""
+
+#: core/helpers.php:364
+msgid "Layout C Sidebar"
+msgstr ""
+
+#: core/rodller-blocks.php:37 template-parts/pagination/infinite-scroll.php:1
+#: template-parts/pagination/load-more.php:1
+msgid "Load More"
+msgstr ""
+
+#: core/setup.php:76
+msgid "Top menu"
+msgstr ""
+
+#: core/setup.php:77
+msgid "Social Top menu"
+msgstr ""
+
+#: core/setup.php:78
+msgid "Main menu"
+msgstr ""
+
+#: core/setup.php:79
+msgid "Social menu"
+msgstr ""
+
+#: core/sidebars.php:23
+msgid "Default Sidebar"
+msgstr ""
+
+#: core/sidebars.php:25 core/sidebars.php:35 core/sidebars.php:48
+#: core/sidebars.php:67
+msgid "Add widgets here."
+msgstr ""
+
+#: core/sidebars.php:33
+msgid "Default Sticky Sidebar"
+msgstr ""
+
+#: core/sidebars.php:46
+msgid "Footer column"
+msgstr ""
+
+#: core/template-fuctions.php:491
+msgid "Tag - "
+msgstr ""
+
+#: core/template-fuctions.php:495
+msgid "Author - "
+msgstr ""
+
+#: core/template-fuctions.php:498
+msgid "Latest Posts"
+msgstr ""
+
+#: core/template-fuctions.php:821
+msgid "Add Comment"
+msgstr ""
+
+#: core/template-fuctions.php:857
+msgid "min"
+msgstr ""
+
+#: core/template-fuctions.php:950
+msgid "View all"
+msgstr ""
+
+#: core/widgets/posts.php:10
+msgid "Display your posts with this widget"
+msgstr ""
+
+#: core/widgets/posts.php:13
+msgid "Mummy Blog Posts"
+msgstr ""
+
+#: core/widgets/posts.php:16
+msgid "Posts"
+msgstr ""
+
+#: core/widgets/posts.php:177
+msgid "Title"
+msgstr ""
+
+#: core/widgets/posts.php:183
+msgid "Number of posts to show"
+msgstr ""
+
+#: core/widgets/posts.php:211
+msgid ""
+"Specify one or more tags separated by comma. i.e. life, cooking, funny "
+"moments"
+msgstr ""
+
+#: core/widgets/posts.php:238
+msgid "Order by:"
+msgstr ""
+
+#: core/widgets/posts.php:252
+msgid "Format:"
+msgstr ""
+
+#: core/widgets/posts.php:265
+msgid "Choose from:"
+msgstr ""
+
+#: core/widgets/posts.php:276
+msgid "Small (list)"
+msgstr ""
+
+#: core/widgets/posts.php:277
+msgid "Large"
+msgstr ""
+
+#: core/widgets/posts.php:281
+msgid "Posts style:"
+msgstr ""
+
+#: core/widgets/posts.php:295
+msgid "Display meta data:"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/cover/slider/layout-1.php:16
+#: template-parts/cover/slider/layout-2.php:16
+msgid "Read more"
+msgstr ""
+
+#: template-parts/footer/pre.php:12
+msgid "See more"
+msgstr ""
+
+#: template-parts/footer/pre.php:12
+msgid "Follow Me"
+msgstr ""
+
+#: template-parts/loop/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/loop/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/loop/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/loop/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/pagination/prev-next.php:3
+msgid "Newer Entries"
+msgstr ""
+
+#: template-parts/pagination/prev-next.php:6
+msgid "Older Entries"
+msgstr ""
+
+#: template-parts/single/page.php:24
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/single/prevnext.php:14
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/single/prevnext.php:22
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/single/related.php:8
+msgid "You may also like"
+msgstr ""
+
+#: vendor/envato/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: vendor/envato/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: vendor/envato/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: vendor/envato/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:59
+#: vendor/kirki/controls/php/class-kirki-control-base.php:132
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:408
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:62
+#: vendor/kirki/controls/php/class-kirki-control-base.php:133
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:386
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:443
+#: vendor/kirki/controls/views/image.php:37
+#: vendor/kirki/field/class-kirki-field-image.php:52
+msgid "Remove"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:63
+#: vendor/kirki/controls/php/class-kirki-control-base.php:135
+msgid "Select File"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:83
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Top"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:84
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Center"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:85
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Left Bottom"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:86
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Top"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:87
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Center"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:88
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Right Bottom"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:89
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Top"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:90
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Center"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:91
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:123
+msgid "Center Bottom"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-base.php:134
+#: vendor/kirki/controls/views/image.php:36
+#: vendor/kirki/field/class-kirki-field-image.php:51
+msgid "Default"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-code.php:39
+msgid ""
+"Please update your WordPress installation to a version newer than 4.9 to "
+"access the code control."
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimension.php:40
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:139
+msgid "Invalid Value"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:124
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:106
+msgid "Font Size"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:125
+msgid "Font Weight"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:126
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:114
+msgid "Line Height"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:127
+msgid "Font Style"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:122
+msgid "Letter Spacing"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:130
+msgid "Word Spacing"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: vendor/kirki/field/class-kirki-field-spacing.php:33
+msgid "Top"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: vendor/kirki/field/class-kirki-field-spacing.php:34
+msgid "Bottom"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:149
+#: vendor/kirki/field/class-kirki-field-spacing.php:35
+msgid "Left"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:161
+#: vendor/kirki/field/class-kirki-field-spacing.php:36
+msgid "Right"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:134
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:155
+msgid "Center"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Size"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:136
+msgid "Spacing"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Width"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:78
+msgid "row"
+msgstr ""
+
+#. translators: %s represents the label of the row.
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:87
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:122
+msgid "Select a Page"
+msgstr ""
+
+#. translators: %s represents the number of rows we're limiting the repeater to allow.
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:227
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:361
+msgid "Hex Value"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:376
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:387
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:387
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:419
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:419
+#: vendor/kirki/controls/php/class-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-slider.php:67
+msgid "Reset"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:80
+msgid "Font Family"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:81
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:86
+msgid "Select Font Family"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:85
+msgid "Backup Font"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:91
+msgid "Variant"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:98
+msgid "Download font-family to server instead of using the Google CDN."
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:138
+msgid "Text Align"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:167
+msgid "Justify"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:177
+msgid "Text Transform"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:181
+msgid "Capitalize"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:182
+msgid "Uppercase"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:183
+msgid "Lowercase"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:184
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:200
+msgid "Initial"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:193
+msgid "Text Decoration"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:197
+msgid "Underline"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:198
+msgid "Overline"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:199
+msgid "Line-Through"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:209
+msgid "Margin Top"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:217
+msgid "Margin Bottom"
+msgstr ""
+
+#: vendor/kirki/controls/php/class-kirki-control-typography.php:225
+msgid "Color"
+msgstr ""
+
+#: vendor/kirki/controls/views/image.php:34
+#: vendor/kirki/controls/views/image.php:39
+#: vendor/kirki/field/class-kirki-field-image.php:49
+#: vendor/kirki/field/class-kirki-field-image.php:54
+msgid "Select image"
+msgstr ""
+
+#: vendor/kirki/controls/views/image.php:35
+#: vendor/kirki/field/class-kirki-field-image.php:50
+msgid "Change image"
+msgstr ""
+
+#: vendor/kirki/controls/views/image.php:38
+#: vendor/kirki/field/class-kirki-field-image.php:53
+msgid "No image selected"
+msgstr ""
+
+#: vendor/kirki/controls/views/image.php:40
+#: vendor/kirki/field/class-kirki-field-image.php:55
+msgid "Choose image"
+msgstr ""
+
+#. translators: %s represents the field ID where the error occurs.
+#: vendor/kirki/core/class-kirki-field.php:248
+#, php-format
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is the URL in the documentation site.
+#: vendor/kirki/core/class-kirki-field.php:257
+#: vendor/kirki/core/class-kirki-field.php:267
+#, php-format
+msgid ""
+"Config not defined for field %1$s - See %2$s for details on how to properly "
+"add fields."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: vendor/kirki/core/class-kirki-field.php:407
+#, php-format
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: vendor/kirki/core/class-kirki-field.php:425
+#, php-format
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#. translators: The field ID where the error occurs.
+#: vendor/kirki/core/class-kirki-field.php:563
+#: vendor/kirki/core/class-kirki-field.php:573
+#, php-format
+msgid ""
+"\"output\" invalid format in field %s. The \"output\" argument should be "
+"defined as an array of arrays."
+msgstr ""
+
+#: vendor/kirki/core/class-kirki-init.php:282
+msgid ""
+"We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::"
+"get_variables() instead."
+msgstr ""
+
+#: vendor/kirki/core/class-kirki.php:228
+msgid ""
+"Kirki fields should not be added on customize_register. Please add them "
+"directly, or on init."
+msgstr ""
+
+#: vendor/kirki/deprecated/functions.php:19
+#, php-format
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: vendor/kirki/field/class-kirki-field-color.php:55
+msgid ""
+"Do not use \"alpha\" as an argument in color controls. Use "
+"\"choices[alpha]\" instead."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2%s is buttonset/image.
+#: vendor/kirki/field/class-kirki-field-radio.php:37
+#, php-format
+msgid ""
+"Error in field %1$s. The \"mode\" argument has been deprecated since Kirki "
+"v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: vendor/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr ""
+
+#. translators: The title.
+#: vendor/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Light 200"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Light 200 Italic"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:215
+msgid "Book 300"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Book 300 Italic"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:217
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:218
+msgid "Normal 400"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Medium 500"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:221
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:222
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:223
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:224
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:225
+msgid "Bold 700"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:226
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:227
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:228
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:229
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:230
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:231
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: vendor/kirki/modules/webfonts/class-kirki-fonts.php:232
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: vendor/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-customizer-importer.php:57
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-customizer-importer.php:70
+msgid ""
+"Error: The customizer import file does not have any content in it. Please "
+"make sure to use the correct customizer import file."
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-customizer-importer.php:80
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-customizer-importer.php:86
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-downloader.php:49
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-downloader.php:66
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-downloader.php:84
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:105
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:256
+msgid "Imported"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:266
+msgid "No Title"
+msgstr ""
+
+#: vendor/merlin/includes/class-merlin-widget-importer.php:328
+msgid "No results for widget import!"
+msgstr ""
+
+#: vendor/merlin/merlin.php:453
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: vendor/merlin/merlin.php:599
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: vendor/merlin/merlin.php:604
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: vendor/merlin/merlin.php:713
+msgid "Welcome"
+msgstr ""
+
+#: vendor/merlin/merlin.php:720
+msgid "Child"
+msgstr ""
+
+#: vendor/merlin/merlin.php:726
+msgid "License"
+msgstr ""
+
+#: vendor/merlin/merlin.php:734
+msgid "Plugins"
+msgstr ""
+
+#: vendor/merlin/merlin.php:742 vendor/merlin/merlin.php:1982
+msgid "Content"
+msgstr ""
+
+#: vendor/merlin/merlin.php:748
+msgid "Ready"
+msgstr ""
+
+#: vendor/merlin/merlin.php:853
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: vendor/merlin/merlin.php:947
+msgid "The license activation step has been displayed"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1017
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1104
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1105
+msgid "req"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1145
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1191
+msgid "Select Demo"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1229
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1309
+msgid "The final step has been displayed"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1386
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1403
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1424
+msgid ""
+"Yikes! The theme activation failed. Please try again or contact support."
+msgstr ""
+
+#: vendor/merlin/merlin.php:1433
+msgid "Please add your license key before attempting to activate one."
+msgstr ""
+
+#: vendor/merlin/merlin.php:1446
+msgid "The license activation was performed with the following results"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1492 vendor/merlin/merlin.php:1533
+msgid "An error occurred, please try again."
+msgstr ""
+
+#. translators: Expiration date
+#: vendor/merlin/merlin.php:1505
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: vendor/merlin/merlin.php:1511
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: vendor/merlin/merlin.php:1515
+msgid ""
+"This appears to be an invalid license key. Please try again or contact "
+"support."
+msgstr ""
+
+#: vendor/merlin/merlin.php:1520
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#. translators: EDD Item Name
+#: vendor/merlin/merlin.php:1525
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: vendor/merlin/merlin.php:1529
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: vendor/merlin/merlin.php:1623
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1654
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1688
+msgid ""
+"The child theme screenshot was copied to the child theme, with the following "
+"result"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1690
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1719
+msgid "Activating"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1735
+msgid "Updating"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1751 vendor/merlin/merlin.php:1767
+#: vendor/merlin/merlin.php:1985 vendor/merlin/merlin.php:1998
+#: vendor/merlin/merlin.php:2011 vendor/merlin/merlin.php:2024
+#: vendor/merlin/merlin.php:2037 vendor/merlin/merlin.php:2050
+#: vendor/merlin/merlin.php:2093
+msgid "Installing"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1759
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1771
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1780 vendor/merlin/merlin.php:1986
+#: vendor/merlin/merlin.php:1999 vendor/merlin/merlin.php:2012
+#: vendor/merlin/merlin.php:2025 vendor/merlin/merlin.php:2038
+#: vendor/merlin/merlin.php:2051
+msgid "Success"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1803
+msgid ""
+"The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1808
+msgid "Invalid content!"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1819
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1861
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1872
+msgid "Error"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1886
+msgid ""
+"The content importer AJAX call for retrieving total content import items "
+"failed to start, because of incorrect data."
+msgstr ""
+
+#: vendor/merlin/merlin.php:1891
+msgid "Invalid data!"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1983
+msgid "Demo content data."
+msgstr ""
+
+#: vendor/merlin/merlin.php:1984 vendor/merlin/merlin.php:1997
+#: vendor/merlin/merlin.php:2010 vendor/merlin/merlin.php:2023
+#: vendor/merlin/merlin.php:2036 vendor/merlin/merlin.php:2049
+msgid "Pending"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1995
+msgid "Widgets"
+msgstr ""
+
+#: vendor/merlin/merlin.php:1996
+msgid "Sample widgets data."
+msgstr ""
+
+#: vendor/merlin/merlin.php:2008
+msgid "Revolution Slider"
+msgstr ""
+
+#: vendor/merlin/merlin.php:2009
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: vendor/merlin/merlin.php:2021
+msgid "Options"
+msgstr ""
+
+#: vendor/merlin/merlin.php:2022
+msgid "Sample theme options data."
+msgstr ""
+
+#: vendor/merlin/merlin.php:2034
+msgid "Redux Options"
+msgstr ""
+
+#: vendor/merlin/merlin.php:2035
+msgid "Redux framework options."
+msgstr ""
+
+#: vendor/merlin/merlin.php:2047
+msgid "After import setup"
+msgstr ""
+
+#: vendor/merlin/merlin.php:2048
+msgid "After import setup."
+msgstr ""
+
+#: vendor/merlin/merlin.php:2077
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: vendor/merlin/merlin.php:2114
+msgid "The home page was set"
+msgstr ""
+
+#: vendor/merlin/merlin.php:2124
+msgid "The blog page was set"
+msgstr ""
+
+#: vendor/merlin/merlin.php:2139
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: vendor/merlin/merlin.php:2163
+msgid ""
+"This predefined demo import does not have the name parameter: "
+"import_file_name"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:55
+msgid ""
+"The XMLReader class is missing! Please install the XMLReader PHP extension "
+"on your server"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:68
+msgid "Could not open the XML file for parsing!"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:248
+msgid "Content import start error: "
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:280
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:173
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:291
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:364
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:504
+msgid "New AJAX call!"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:135
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:514
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:577
+msgid "Invalid author mapping"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:678
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:770
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:780
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:858
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:872
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:904
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1822
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:909
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:949
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1094
+msgid "Invalid file type"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1593
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1614
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1618
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1783
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1827
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1886
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1895
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1947
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1969
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1975
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2000
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2013
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2018
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2032
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2037
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2063
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2074
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2119
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2124
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2146
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2150
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2164
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2168
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2185
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2216
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2226
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2236
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2244
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2258
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2277
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2287
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2322
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: vendor/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2331
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: vendor/tgmpa/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:393
+#: vendor/tgmpa/class-tgm-plugin-activation.php:912
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2618
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:395
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:1019
+#: vendor/tgmpa/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:1206
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3594
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3594
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgmpa/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Mummy Blog"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://rodller.com/themes/rodller/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Mummy Blog is a modern, clean and trendy WordPress theme. This theme is "
+"perfect for any kind of Mummy Blogs, no matter if you are looking for "
+"something stylish like fashion blog or you want to write articles that will "
+"help other moms."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rodller"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rodller.com"
+msgstr ""

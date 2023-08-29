@@ -1,0 +1,185 @@
+/**
+ * Bigger then MD
+ */
+@include media-breakpoint-up('md'){
+  .rodller-single.col-md-12{
+    padding: 0;
+  }
+}
+
+/**
+ * Smaller then LG
+ */
+@include media-breakpoint-down('lg'){
+  #rodller-cover .rodller-cover-slider-item .rodller-cover-slider-item-content-wrapper .rodller-cover-slider-item-content{
+    margin-left: 80px;
+  }
+  #rodller-cover .rodller-cover-slider-item .rodller-cover-slider-item-content-wrapper .rodller-cover-slider-item-content .rodller-cover-slider-item-content-title{
+    font-size: 25px;
+  }
+  #rodller-sticky-header .container{
+    width: 100%;
+  }
+}
+
+/**
+ * Smaller then MD
+ */
+@include media-breakpoint-down('md'){
+  #rodller-main-header{
+    .site-description{
+      display: none;
+    }
+  }
+  #rodller-sticky-header{
+    display: none;
+  }
+}
+
+/**
+ * Smaller then SM
+ */
+@include media-breakpoint-down('md'){
+  .alignwide{
+    max-width: 100vw;
+  }
+
+  #rodller-main.rodller-single{
+    padding: 0 10px;
+  }
+
+  #rodller-responsive-header{
+    display: block;
+  }
+  .rodller-sticky-header-on + #rodller-responsive-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .rodller-entry-content .wp-block-embed iframe{
+    min-height: 200px;
+    height: 200px;
+  }
+  #rodller-main-header{
+    display: none;
+  }
+
+  #rodller-below-header-ad{
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  #rodller-primary{
+    margin-bottom: 30px;
+  }
+  #rodller-primary-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body.rodller-sidebar-active #rodller-primary{
+    width: 750px;
+    max-width: 100%;
+  }
+  .rodller-entry-header{
+    margin-top: 30px;
+  }
+  .rodller-posts .layout-a .rodller-post-thumbnail>a>img{
+    width: 100%;
+    height: auto;
+  }
+  #rodller-before-footer-ad{
+    padding: 0 15px;
+    margin-bottom: 60px;
+  }
+  .wp-block-columns {
+    flex-direction: column;
+  }
+  .rodller-entry-content .wp-block-embed>iframe{
+    min-height: auto;
+  }
+  .rodller-entry-content h1, .rodller-entry-content h2, .rodller-entry-content h3, .rodller-entry-content h4, .rodller-entry-content h5, .rodller-entry-content h6{
+    margin: 0.5em 0 .3em;
+  }
+  #rodller-prefooter .null-instagram-feed .owl-prev{
+    left: 25px;
+  }
+  #rodller-prefooter .null-instagram-feed .owl-next{
+    right: 25px;
+  }
+  .rodller-posts .layout-d{
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .rodller-posts .layout-d .rodller-post-thumbnail{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .rodller-author .rodller-author-display-name,.rodller-author .rodller-author-avatar{
+    text-align: center;
+  }
+  #rodller-prevnext .rodller-prevnext-link .rodller-entry-image{
+    display: none;
+  }
+  #rodller-cover .rodller-cover-slider-item .rodller-cover-slider-item-img > a{
+    max-height: 300px;
+  }
+  #rodller-cover .owl-nav{
+    .owl-prev{
+      left: 10px;
+    }
+    .owl-next{
+      right: 10px;
+    }
+    .owl-prev, .owl-next{
+      font-size: 40px;
+    }
+  }
+  #rodller-cover .rodller-cover-slider-item-content-title{
+    font-size: 22px;
+  }
+  #rodller-cover .rodller-cover-slider-item .rodller-cover-slider-item-content-wrapper .rodller-cover-slider-item-content{
+    padding: 40px 20px;
+    margin-left: 30px;
+  }
+  #rodller-cover .rodller-cover-slider-item .rodller-cover-slider-item-content-wrapper .rodller-cover-slider-item-content p{
+    display: none;
+  }
+  .gallery.gallery-columns-4 figure, .gallery.gallery-columns-5 figure, .gallery.gallery-columns-6 figure, .gallery.gallery-columns-7 figure, .gallery.gallery-columns-8 figure, .gallery.gallery-columns-9 figure {width:100%; margin:0 0 1em 0; float:none;}
+}
+
+
+/**
+ * Smaller then SM and bigger then XS
+ */
+@include media-breakpoint-between('xms', 'sm'){
+  .rodller-posts .layout-b .rodller-post-thumbnail{
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+  }
+}
+
+/**
+ * Smaller then XXS
+ */
+@include media-breakpoint-down('xxs') {
+  #rodller-responsive-header{
+    padding-left: 10px;
+    text-align: left;
+    #rodller-social{
+      text-align: center;
+    }
+  }
+  .rodller-posts .layout-b .rodller-post-thumbnail{
+    height: 220px;
+  }
+  #rodller-cover .rodller-cover-slider-item .rodller-cover-slider-item-content-wrapper .rodller-cover-slider-item-content{
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;
+    margin-left: 0;
+  }
+  #rodller-cover .owl-nav .owl-next, #rodller-cover .owl-nav .owl-prev{
+    display: none;
+  }
+}

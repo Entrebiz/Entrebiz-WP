@@ -1,0 +1,275 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+body {
+  background: #fff;
+  /* Fallback for when there is no custom background color defined. */
+}
+
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+ul, ol {
+  margin: 0 0 1.5em 3em;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+}
+
+figure {
+  margin: 1em 0;
+  /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+.rodller-searchform{
+  text-align: center;
+  .rodller-search-input-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px 25px;
+    input[type="text"]{
+      border: none;
+      padding: 0;
+    }
+  }
+  .rodller-searchsubmit{
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    padding: 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+  }
+  .rodller-searchform-opener{
+    min-width: 35px;
+  }
+}
+
+#rodller-header-layout  .rodller-searchform .rodller-searchform-opener{
+  line-height: 47px;
+}
+
+#rodller-pagination{
+  display: block;
+  text-align: center;
+  &.rodller-infinite-scroll{
+    > a{
+      display: none;
+    }
+  }
+}
+
+.spinner {
+  display: none;
+  margin: 40px auto 10px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+  .dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #03659a;
+    border-radius: 100%;
+
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  .dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+}
+
+.rodller-pill{
+  display: inline-block;
+  padding: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  background-color: $light;
+  border-radius: 15px;
+  @include box-shadow(0, 0, 15px, rgba(0, 0, 0, 0.07));
+  @include transition('box-shadow,background-color 0.2s ease-in-out 0s');
+  &:hover{
+    @include box-shadow(0, 0, 7px, rgba(0, 0, 0, 0.07));
+  }
+}
+
+#rodller-prevnext{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodller-author{
+  .avatar{
+    border-radius: 50%;
+  }
+  .rodller-author-display-name{
+    margin: 0;
+  }
+}
+
+.rodller-404{
+  display: table;
+  text-align: center;
+  height: 70vh;
+  .rodller-404-content{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .widget_search{
+    max-width: 300px;
+    margin: 40px auto;
+  }
+}
+
+.woocommerce {
+  .rodller-entry-content ul.products{
+    margin-left: 0;
+  }
+  ul.products li.product a img{
+    margin-bottom: 30px;
+  }
+  ul.products li.product .onsale,
+  span.onsale{
+    top: 10px;
+    right: auto;
+    left: 10px;
+    margin: 0;
+  }
+  .woocommerce-result-count{
+    margin: 0;
+    line-height: 3;
+  }
+  div.product {
+    ins{
+      text-decoration: none;
+    }
+    p.price{
+      margin-top: 0;
+    }
+    div.images .flex-control-thumbs{
+      margin-left: -5px;
+      margin-right: -5px;
+      margin-top: 10px;
+      li{
+        padding: 0 5px;
+      }
+    }
+    .quantity .qty{
+      padding: 4.5px;
+      margin-right: 15px;
+    }
+    .product_meta{
+      > span{
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+    .form.cart{
+      margin-bottom: 20px;
+    }
+    .woocommerce-tabs{
+      ul.tabs{
+        padding: 0;
+        &:before{
+          opacity: 0.4;
+        }
+        li{
+          font-size: 1.8rem;
+          opacity: 0.4;
+          border: 0;
+          background-color: transparent;
+          &:before, &:after{
+            display: none;
+          }
+          &.active{
+            opacity: 1;
+            background-color: transparent;
+          }
+          a{
+            font-weight: normal;
+          }
+        }
+      }
+      .panel{
+        h2{
+          margin: .7em 0 .7em;
+        }
+      }
+    }
+  }
+  .woocommerce-message, .woocommerce-info, .woocommerce-error{
+    background-color: transparent;
+  }
+  table.shop_table, .cart_totals table{
+    border-radius: 0;
+  }
+  .wc-proceed-to-checkout{
+    text-align: center;
+  }
+  #customer_details{
+    > .col-1, > .col-2{
+      max-width: initial;
+    }
+  }
+  #add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment{
+    border-radius: 0;
+  }
+}
+body .rodller-entry-content ul.woocommerce-error{
+  margin-left: 0;
+}

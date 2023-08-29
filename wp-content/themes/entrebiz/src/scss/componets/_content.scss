@@ -1,0 +1,45 @@
+.container{
+  position: relative;
+  width: $container-lg; max-width: 100%;
+  padding: 0 15px;
+}
+
+.container-small{
+  width: $container-sm;
+  max-width: 100%;
+}
+
+#rodller-primary{
+  margin: 0 auto 70px;
+}
+
+#rodller-primary-title{
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.inner-section{
+  padding: 60px 0;
+}
+
+#rodller-content{
+  margin: 50px 0;
+}
+
+.rodller-ad{
+  a > img{
+    vertical-align: middle;
+  }
+}
+
+#rodller-below-header-ad{
+  margin-top: 30px;
+}
+
+#rodller-before-footer-ad{
+  margin-bottom: 40px;
+}
+
+a{
+  text-decoration: none;
+}
